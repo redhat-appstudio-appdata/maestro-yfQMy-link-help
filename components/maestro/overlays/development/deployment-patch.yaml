@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: maestro
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/maestro-rhtap-tenant/maestro/maestro@sha256:d2e85bcee945b641ece5d365d87c33f98c182278f6b3156773897ae0cbaeec3d
+        name: container-image
+        resources: {}
+status: {}
