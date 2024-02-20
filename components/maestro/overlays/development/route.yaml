@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: maestro
     app.kubernetes.io/part-of: maestro
-  name: maestrooj8e
+  name: maestro7nif
 spec:
   port:
     targetPort: 8000
