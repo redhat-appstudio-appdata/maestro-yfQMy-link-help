@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: maestro
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/maestro-rhtap-tenant/maestro/maestro@sha256:8d8fbec41f9c433d8b87b41706b23fe55523f9a9bd0aa69176110d3e64588c04
+      - image: quay.io/redhat-user-workloads/maestro-rhtap-tenant/maestro/maestro@sha256:fc9249ff38763abfd1767bcf23d95a3623d8de3100ee8d6e6def92c540a0e20e
         imagePullPolicy: Always
         name: container-image
         ports:
