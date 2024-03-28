@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/maestro-rhtap-tenant/maestro/maestro@sha256:fc9249ff38763abfd1767bcf23d95a3623d8de3100ee8d6e6def92c540a0e20e
+      - image: quay.io/redhat-user-workloads/maestro-rhtap-tenant/maestro/maestro@sha256:eef180b6ab63b21a5910d01e787904f4535db35986cefff8077a1de53f91cbed
         name: container-image
         resources: {}
 status: {}
